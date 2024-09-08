@@ -1,0 +1,558 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #000; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FBEDCA;
+    border-radius: 6px; 
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/* ============================ header ============================== */
+
+.header{
+    display: flex;
+    padding: 1rem 5rem;
+    margin: 0 0 3rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar a:hover,.navbar__links a:hover{
+    color: #000;
+    transition: all 0.2s;
+    transform: scale(1.1);
+}
+
+.nav-bar a,.navbar__links a{
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+}
+
+.page.active{
+    color: #000;
+    transform: scale(1.1);
+}
+
+.navbar{
+    display: none;
+}
+
+.navbar__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__links a {
+    text-decoration: none;
+}
+
+.navbar__toggle svg {
+    fill: #000; 
+    width: 20px;
+    height: 20px;
+}
+
+.navbar__toggle:hover svg {
+    fill: #000; 
+}
+
+.navbar__toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0 20px 15px 0;
+    width: 0px;
+    height: 0px;
+} 
+
+.navbar__links a:hover{
+    color: #fff;
+}
+
+/* ============================= speech1 ================================ */
+
+.speech1 h1{
+    font-family: "Tangerine", sans-serif;
+    font-size: 2.7rem;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    padding: 5px 15px;
+    background: #000;
+    color: #fff;
+    border: #000 solid 1px;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: gray;
+    transition: all .2s;
+    box-shadow: 0 0 2rem #000;
+    transform: scale(1.1);
+}
+
+.seemenu{
+    margin: 3rem 0 1rem 0;
+}
+
+.speech1{
+    padding: 0 5rem 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sp1{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sp{
+    display: flex;
+    position: relative;
+}
+
+.img1{
+    margin: 2rem 0 0 0;
+}
+
+.sp1 img{
+    border-radius: 20px;
+}
+
+.sp img:hover,.speech2 img:hover,.review img:hover,.footer2 img:hover,.footer1 img:hover{
+    transition: all .2s;
+    box-shadow: 0 0 2rem #000;
+    transform: scale(1.01);
+}
+
+.sp11 img:hover,.footer2 img:hover{
+    transform: scale(1.1);
+}
+
+.footer2 img:hover,.footer1 img:hover{
+    box-shadow: 0 0 2rem #fff;
+}
+
+.sp11{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -3rem;
+    top: 15rem;
+}
+
+/* ================================ speech2 ================================== */
+
+.speech2 h1{
+    margin: 0 0 1rem 0;
+}
+
+.speech2 img{
+    border-radius: 70px;
+}
+
+.speech2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: 0 5rem 5rem 5rem;
+}
+
+.ss{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sp2{
+    display: flex;
+    gap: 2rem;
+}
+
+.sp22{
+    display: flex;
+    gap: 2rem;
+}
+
+.sp222{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* ================================= speech3 ================================ */
+
+.speech33 p {
+    margin: 2rem 0 ;
+    width: 100%;
+}
+
+.speech3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    background: #FBEDCA;
+    width: 50%;
+}
+
+.speech33{
+    display: flex;
+}
+
+.speech33 img{
+    width: 50%;
+}
+
+/* ==================================== review ============================== */
+
+.review h1{
+    margin: 0 0 3rem 0;
+}
+
+.review{
+    margin: 3rem 0;
+}
+
+.rr{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.rrr{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.rev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.rev button{
+    background: #fff;
+    border: #fff;
+    color: #FBEDCA;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.rev img{
+    border-radius: 20rem;
+}
+
+.prev,.next{
+    height: 50px;
+}
+
+/* ============================ footer ============================= */
+
+.footer1{
+    padding: 2rem 5rem;
+    display: flex;
+    background: #000;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foo1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 a{
+    margin: 0 0 1rem 0;
+}
+
+.footer1 p{
+    margin: 0 0 1rem 0;
+}
+
+.foo1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer1 h2{
+    margin: 0 0 2rem 0;
+}
+
+.footer2{
+    display: flex;
+    padding: 2rem 5rem;
+    background: #000;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* =========================================================== */
+
+@media screen and (max-width : 1024px) {
+    .header{
+       padding: 1rem 3rem;
+    }
+
+    .speech1{
+        padding: 0 3rem 5rem 3rem;
+    }
+
+    .icon-header p,.nav-bar a{
+        font-size: 0.7rem;
+    }
+
+    .speech1 h1{
+        font-size: 2.5rem;
+    }
+
+    .sp1 img{
+        width: 200px;
+        height: 250px;
+    }
+
+    .sp1{
+        gap: 1rem;
+    }
+
+    .sp11{
+        right: -2rem;
+        top: 12rem;
+    }
+
+    .sp2 img{
+        width: 100px;
+    }
+
+    .sp2,.sp22{
+        gap: 0.9rem;
+    }
+
+    .ss{
+        width: 500px;
+    }
+
+    .rrr{
+        width: 250px;
+    }
+
+    .footer1 img{
+        width: 250px;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .nav-bar {
+        display: none;
+    }
+    
+    .navbar__toggle {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .navbar {
+        display: none;
+        width: 50px;
+        background-color: #000;
+    }
+    
+    .navbar.active {
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        right: 0;
+        height: 110vh;
+        width: 60px;
+    }
+
+    .navbar__links a {
+        font-size: 10px;
+        text-decoration: none;
+        padding: 5px;
+        
+    }
+
+    .header{
+        padding: 1rem 5rem 0 5rem;
+    }
+
+    .sp1 img{
+        width: 100px;
+        height: 200px;
+    }
+
+    .sp1{
+        gap: 0.7rem;
+    }
+
+    .sp11{
+        right: -2rem;
+        top: 9rem;
+    }
+
+    .sp2{
+        flex-direction: column;
+    }
+
+    .speech3{
+        padding: 1rem;
+    }
+
+    .ss{
+        width: 300px;
+    }
+
+    .rr{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .rrr{
+        width: 250px;
+    }
+
+    .footer1{
+        padding: 4rem 2rem 2rem 2rem;
+    }
+
+    .footer2{
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .footer1 img{
+        width: 150px;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+
+    p,.footer1 h2{
+        font-size: 0.6rem;
+    }
+
+    .footer1 p,.footer1 a,.footer2 p{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .speech1 h1{
+        font-size: 2rem;
+    }
+
+    .sp1 img{
+        width: 80px;
+        height: 150px;
+    }
+
+    .sp11{
+        right: -1rem;
+        top: 7rem;
+    }
+
+    .sp2 img{
+        width: 85px;
+    }
+
+    .ss{
+        width: 250px;
+    }
+
+    .speech33{
+        flex-direction: column;
+    }
+
+    .speech33 img,.speech3{
+        width: 100%;
+    }
+
+    .rr{
+        padding: 1rem;
+    }
+
+    .rrr{
+        width: 220px;
+    }
+
+    .footer1{
+        padding: 3rem 1rem 1rem 1rem;
+    }
+
+    .footer2{
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .footer1 img{
+        width: 120px;
+    }
+
+    p,.footer1 h2{
+        font-size: 0.6rem;
+    }
+
+    .footer2 p{
+        font-size: 0.3rem;
+    }
+
+    .footer2 img{
+        width: 15px;
+        height: 15px;
+    }
+}

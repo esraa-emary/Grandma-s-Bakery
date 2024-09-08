@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandma's Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/icon-park-outline_bread.png?raw=true">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="icon-header">
+            <img width="20px" src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/icon-park-outline_bread.png?raw=true" alt="">
+            <p>Grandma's</p>
+            <p>Bakery</p>
+        </div>
+
+        <div class="navbar">
+            <ul class="navbar__links">
+                <li><a  class="page" href="#header">Home</a></li>
+                <li><a  class="page" href="#about">About</a></li>
+                <li><a  class="page" href="#menu">Menu</a></li>
+                <li><a  class="page" href="#review">Review</a></li>
+                <li><a  class="page" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <button class="navbar__toggle" aria-label="Toggle menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M4 6h16v2H4zm0 4h16v2H4zm0 4h16v2H4z"/>
+            </svg>
+        </button>
+
+        <div class="nav-bar">
+            <a onclick="setActive(this)" class="page" href="#header">Home</a>
+            <a onclick="setActive(this)" class="page" href="#about">About</a>
+            <a onclick="setActive(this)" class="page" href="#menu">Menu</a>
+            <a onclick="setActive(this)" class="page" href="#review">Review</a>
+            <a onclick="setActive(this)" class="page" href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <section class="speech1">
+        <center><h1>
+            Enjoy fresh items of our <br> Grandma’s Reciepe 
+        </h1></center>
+        <center><div class="seemenu">
+            <a href="#menu" class="button">See Menu</a>
+        </div></center>
+        <center><p>* 10% off on first order</p></center>
+        <div class="sp">
+            <div class="sp1"> 
+                <img width="250px" height="300px" src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202260.png?raw=true" alt="">
+                <img class="img1" width="300px" height="400px" src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202261.png?raw=true" alt="">
+                <img width="250px" height="350px" src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202262.png?raw=true" alt="">
+            </div>
+            <div class="sp11">
+                <a href="#header"><img width="20px" height="15px" src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/cib_facebook-f%20(1).png?raw=true" alt=""></a>
+                <a href="#header"><img width="20px" height="20px"src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/bx_bxl-youtube%20(1).png?raw=true" alt=""></a>
+                <a href="#header"><img width="20px" height="20px" src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/carbon_logo-instagram%20(1).png?raw=true" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="speech2" id="menu">
+        <div class="ss">
+            <h1>What we offer</h1>
+            <center><p>Introducing you a wide variety of bakery items Introducing you a wide variety of bakery items with unique taste and the creamiest of cakes in the city.</p></center>
+        </div>
+        <div class="sp2">
+            <div class="sp22">
+                <div class="sp222">
+                    <img src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202264.png?raw=true" alt="">
+                    <p>Bread</p>
+                </div>
+                <div class="sp222">
+                    <img src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202266.png?raw=true" alt="">
+                    <p>Cookies</p>
+                </div>
+                <div class="sp222">
+                    <img src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202267.png?raw=true" alt="">
+                    <p>Macron</p>
+                </div>
+            </div>
+            <div class="sp22">
+                <div class="sp222">
+                    <img src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202268.png?raw=true" alt="">
+                    <p>Pretzel</p>
+                </div>
+                <div class="sp222">
+                    <img src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202269.png?raw=true" alt="">
+                    <p>Cupcakes</p>
+                </div>
+                <div class="sp222">
+                    <img src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202265.png?raw=true" alt="">
+                    <p>Cakes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="speech33" id="about">
+        <img  src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Rectangle%202263.png?raw=true" alt="">
+        <div class="speech3">
+            <h1>Aobut Grandma's Bakery</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                ut labore et dolore magna aliqua.</p>
+            <button class="button">Read More</button>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <center><h1>Review from customers</h1></center>
+        <div class="rev">
+            <button class="prev" ><h1 class="next">&#10094</h1></button>
+            <div class="rr" >
+                <img src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/Ellipse%20103.png?raw=true" alt="">
+                <div class="rrr">
+                    <center><p>This place is great. They have so many baked goods it will blow your mind. They have everything from large cakes to cupcakes to donuts to pastries to breads to cookies. The price is also fair.</p>
+                    <p><span style="font-weight: bold;">Aisha Pun, </span> Student</p></center>
+                </div>
+            </div>
+            <button class="next" ><h1>&#10095</h1></button>
+        </div>
+    </section>
+
+    <footer class="footer1" id="contact">
+        <div class="foo1">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Team</a>
+            <a href="">FAQS</a>
+            <a href="">Careers</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div>
+            <h2>Contact</h2>
+            <p>Sidhartha chowk-8</p>
+            <p>Pokhara, Nepal</p>
+            <p>+977-[0]61-428793</p>
+        </div>
+        <img width="300px" src="https://github.com/esraa-emary/photos/blob/main/Vyayamshala/Rectangle%2040.png?raw=true" alt="">
+    </footer>
+
+    <footer class="footer2">
+        <p>Copyright © 2024 Grandma-Bakery</p>
+        <div class="social">
+            <a href="" target="blank"><img align="center" src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/bx_bxl-facebook%20(1).png?raw=true" alt="" height="20" width="20" /></a>
+            <a href="" target="blank"><img align="center" src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/jam_youtube.png?raw=true" alt="" height="25" width="20" /></a>
+            <a href="" target="blank"><img align="center" src="https://github.com/esraa-emary/photos/blob/main/Grandma%E2%80%99s%20Bakery/ant-design_instagram-filled.png?raw=true" alt="" height="20" width="20" /></a>
+        </div>
+        <p>Created by Brandbuilder</p>
+    </footer>
+</body>
+</html>
